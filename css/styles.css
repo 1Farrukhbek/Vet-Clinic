@@ -467,51 +467,51 @@ img {
   content: "";
 }
 
-.services__img1::before {
+.services--img1::before {
   background-image: url("../img/service-doctor.png");
 }
 
-.services__img2::before {
+.services--img2::before {
   background-image: url("../img/service-look.png");
 }
 
-.services__img3::before {
+.services--img3::before {
   background-image: url("../img/service-surgery.png");
 }
 
-.services__img4::before {
+.services--img4::before {
   background-image: url("../img/service-dermotology.png");
 }
 
-.services__img5::before {
+.services--img5::before {
   background-image: url("../img/service-lab.png");
 }
 
-.services__img6::before {
+.services--img6::before {
   background-image: url("../img/service-oftolmology.png");
 }
 
-.services__img7::before {
+.services--img7::before {
   background-image: url("../img/service-uzi.png");
 }
 
-.services__img8::before {
+.services--img8::before {
   background-image: url("../img/service-chipping.png");
 }
 
-.services__img9::before {
+.services--img9::before {
   background-image: url("../img/service-passport.png");
 }
 
-.services__img10::before {
+.services--img10::before {
   background-image: url("../img/service-vacine.png");
 }
 
-.services__img11::before {
+.services--img11::before {
   background-image: url("../img/service-dantist.png");
 }
 
-.services__img12::before {
+.services--img12::before {
   background-image: url("../img/service-102.png");
 }
 
