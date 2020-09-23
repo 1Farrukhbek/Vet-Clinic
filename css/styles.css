@@ -57,7 +57,7 @@ body {
   background-image: url("../img/main-bg.png");
   background-repeat: no-repeat;
   background-position: center top;
-
+  
   color: var(--text-color);
   background-color: #efefef;
 }
@@ -288,15 +288,15 @@ img {
 }
 
 .sitenav__logo:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 .logo__img:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .sitenav__logo:active {
-opacity: 0.4;
+  opacity: 0.4;
 }
 
 .logo__img {
@@ -544,10 +544,10 @@ opacity: 0.4;
 
 
 @media only screen and (max-width: 1230px) {
-    
+  
   .site-header__top-container {
     padding-left: 0;
-
+    
   }
   
   .sitenav__logo {
@@ -565,27 +565,31 @@ opacity: 0.4;
     display: none;
     content: "";
   }
-  
+    
 }
 
 @media only screen and (max-width: 800px) {
   .site-header__top-container {
     flex-direction: column;
   }
-
+  
   .hero {
     background: none;
   }
-
+  
   .sitenav__container {
-   flex-direction: column;
-   align-content: center;
-   justify-content: center;
-   flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
-
+  
   .sitenav__list {
     width: auto;
+  }
+
+  .hero__container {
+    padding-left: 50px;
   }
   
 }
@@ -598,5 +602,13 @@ opacity: 0.4;
   .phones__item + .phones__item::before {
     background: none;
     margin: 0;
+  }
+
+  .hero__container {
+    padding-left: 20px;
+  }
+
+  .hero__heading {
+    text-align: center;
   }
 }
